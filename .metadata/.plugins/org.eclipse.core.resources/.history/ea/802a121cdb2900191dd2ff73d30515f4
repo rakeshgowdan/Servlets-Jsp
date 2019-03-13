@@ -1,0 +1,25 @@
+package com.niit.login.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class LoginDao {
+	
+     String Url="jdbc:mysql://localhost:3306/navin";
+     String username="root";
+     String password="root";
+	public boolean validate(String uname, String password)
+	{
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con=DriverManager.getConnection(Url, username, password);
+			Statement st=con.prepareStatement();
+			
+		} catch (Exception e) {
+			
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,14 @@
+<html>
+<body>
+<head>
+<h2>File Upload Demo</h2>
+</head>
+<form action="Upload" method="post" enctype="multipart/form-data">
+
+  <input type="file" name="file" multiple/>
+  <input type="submit">
+
+
+</form>
+</body>
+</html>

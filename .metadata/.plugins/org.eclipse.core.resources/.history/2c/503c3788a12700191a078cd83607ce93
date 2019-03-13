@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Request Dispatcher</title>
+</head>
+<body>
+<form action="FirstServlet" >
+<input type="submit" value="get">
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Request Dispatcher</title>
+<style >
+input{
+text-color:000000;
+}
+</style>
+</head>
+<body>
+<form action="FirstServlet" >
+<input type="submit" value="OK">
+</form>
+</body>
+</html>

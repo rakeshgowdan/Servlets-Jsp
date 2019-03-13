@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;5.File Upload in servlet&apos;" deleteContents="false" description="Delete resource &apos;5.File Upload in servlet&apos;" element1="/5.File Upload in servlet" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1549350826531"/>
+</session>

@@ -1,0 +1,5 @@
+package com.niit.login.dao;
+
+public class LoginDao {
+
+}

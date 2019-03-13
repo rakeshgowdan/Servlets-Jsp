@@ -1,0 +1,52 @@
+<html>
+<body>
+<head>
+<h1>File Upload Demo</h1>
+<style>
+/* ===================== BASIC STYLING ===================== */
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	height: 100%;
+	background: #053777;
+	color: #fff;
+	font-size: 16px;
+	overflow: hidden;
+	background: -moz-linear-gradient(top, #053777 0%, #00659b 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #053777),
+		color-stop(100%, #00659b));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #053777 0%, #00659b 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #053777 0%, #00659b 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #053777 0%, #00659b 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #053777 0%, #00659b 100%);
+	/* W3C */
+}
+
+h1 {
+	text-align: center;
+	margin: 50px auto;
+	font-weight: 100;
+}
+}
+}
+</style>
+</head>
+<form action="Upload" method="post" enctype="multipart/form-data">
+
+	<input type="file" name="file" multiple /> <input type="submit">
+
+
+</form>
+</body>
+</html>

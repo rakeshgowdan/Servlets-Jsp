@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="7">
+    <list key="modules" value0="1.Servlet Ex::org.eclipse.jst.jee.server:1.Servlet Ex::jst.web::4.0" value1="2.Servlet Req Dis::org.eclipse.jst.jee.server:2.Servlet Req Dis::jst.web::4.0" value2="3.Session Management::org.eclipse.jst.jee.server:3.Session Management::jst.web::4.0" value3="4.Cookie Mangement::org.eclipse.jst.jee.server:4.Cookie Mangement::jst.web::4.0" value4="FileUploadDemo::org.eclipse.jst.j2ee.server:FileUploadDemo::jst.web::2.3" value5="Jsp Demo::org.eclipse.jst.jee.server:Jsp Demo::jst.web::4.0" value6="Login Module::org.eclipse.jst.jee.server:Login Module::jst.web::4.0"/>
+  </server>
+</servers>

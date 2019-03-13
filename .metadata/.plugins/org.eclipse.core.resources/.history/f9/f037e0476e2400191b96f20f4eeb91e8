@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet Demo</title>
+<h1>Add Servlet</h1>
+<style>
+h1 {
+	  text-align: center;
+	  color: grey;
+	}
+body{
+width: 300px;
+  padding: 25px;
+  margin: 25px;
+   text-align: center;
+   text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<form action="Add" method="get">
+Enter 1st number:<input type="text" name="v1"><br>
+Enter 2nd number:<input type="text" name="v2"><br>
+<input type="submit" value="Add">
+</form>
+
+</body>
+</html>
